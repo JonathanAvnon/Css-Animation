@@ -1,15 +1,14 @@
-
  @keyframes LinkedInLogo {
     0%   {border-radius: 0%;}
     50%  {border-radius: 100%;
           transform: rotate(360deg);}
 }
-
   img {
     margin: 10%;
     width: 200px;
     height: 200px;
     animation-name: LinkedInLogo;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  
+    color: blueviolet; 
   } 
